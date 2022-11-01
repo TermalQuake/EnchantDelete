@@ -14,19 +14,11 @@ public class fishing implements Listener {
     public void onPlayerFish(PlayerFishEvent e) {
         if (e.getCaught() instanceof Item) {
             ItemStack fished = ((Item) e.getCaught()).getItemStack();
-            if (fished.getType() == Material.ENCHANTED_BOOK) {
+            if (fished.getType() == Material.ENCHANTED_BOOK || fished.getType() == Material.BOW || fished.getType() == Material.FISHING_ROD)   {
                 e.getCaught().remove();
-            }
-            if (fished.getType() == Material.BOW)  {
-                {
-                    e.getCaught().remove();
-                }
-                if (fished.getType() == Material.FISHING_ROD)  {
-                    {
-                        e.getCaught().remove();
-                    }
-                }
             }
         }
     }
 }
+
+
