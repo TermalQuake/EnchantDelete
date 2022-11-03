@@ -28,6 +28,9 @@ public class villager implements Listener {
             if (result.getType() == Material.ENCHANTED_BOOK) {
                 recipes.remove(recipe);
             }
+            if (result.getEnchantments().size() > 0) {
+                recipes.remove(recipe);
+            }
         });
         merchant.setRecipes(recipes);
     }
