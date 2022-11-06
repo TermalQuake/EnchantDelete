@@ -1,0 +1,6 @@
+name: EnchantDelete
+version: '${project.version}'
+main: me.termalquake.enchantdelete.EnchantDelete
+api-version: 1.18
+authors: [ TermalQuake ]
+description: Delete All Enchants items and prohibits the use enchanted table
