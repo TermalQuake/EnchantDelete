@@ -15,7 +15,7 @@ Maybe i will improve this plugin.
 ## RoadMap
 - [ ] Create Config
 - [ ] Replase Enchant item on dont enchant item. Instead delete :skull: 
-
+- [ ] Prohibit the use enchants on anvils    
 ### Download
 wait
 # Русский
@@ -31,6 +31,7 @@ wait
 Возможно я буду развивать этот плагин, как минимум у меня есть пару идей, как это можно было бы сделать.    
 ## Дорожная карта
 - [ ] Создать конфиг
-- [ ] Снять зачарование с предмета, не удаляя его :skull:    
+- [ ] Снять зачарование с предмета, не удаляя его :skull:
+- [ ] Запретить использовать зачарованные предметы и книги на наковальне    
 ### Скачать
 Потом будет
