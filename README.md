@@ -8,13 +8,16 @@ Its functions:
 - Removes all enchants items from the drops mobs
 - Removes all enchants items and enchanted books from fishing
 - Removes all enchants items and enchanted books from trade villagers
-- Removes all enchants items and enchanted books in chests structures (lootcrate structures)    
+- Removes all enchants items and enchanted books in chests structures (lootcrate structures) 
 
 Maybe i will improve this plugin.
+
 ## RoadMap
 - [ ] Create Config
 - [ ] Replase Enchant item on dont enchant item. Instead delete :skull: 
 
+### Download
+wait
 # Русский
 Привет. Это мой первый "крупный" плагин.    
 Данный плагин удаляет всё зачарования в игре.    
@@ -28,4 +31,6 @@ Maybe i will improve this plugin.
 Возможно я буду развивать этот плагин, как минимум у меня есть пару идей, как это можно было бы сделать.    
 ## Дорожная карта
 - [ ] Создать конфиг
-- [ ] Снять зачарование с предмета, не удаляя его :skull: 
+- [ ] Снять зачарование с предмета, не удаляя его :skull:    
+### Скачать
+Потом будет
