@@ -17,7 +17,7 @@ Maybe i will improve this plugin.
 - [ ] Replase Enchant item on dont enchant item. Instead delete :skull: 
 - [ ] Prohibit the use enchants on anvils    
 ### Download
-wait
+[spigotmc](https://www.spigotmc.org/resources/enchantdelete.106135/)
 # Русский
 Привет. Это мой первый "крупный" плагин.    
 Данный плагин удаляет всё зачарованния в игре.    
@@ -34,4 +34,4 @@ wait
 - [ ] Снять зачарованние с предмета, не удаляя его :skull:
 - [ ] Запретить использовать зачарованные предметы и книги на наковальне    
 ### Скачать
-Потом будет
+[spigotmc](https://www.spigotmc.org/resources/enchantdelete.106135/)
