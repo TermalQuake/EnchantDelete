@@ -12,6 +12,7 @@ public final class EnchantedDelete extends JavaPlugin {
         this.getServer().getPluginManager().registerEvents(new villager(), this);
         this.getServer().getPluginManager().registerEvents(new fishing(), this);
         this.getServer().getPluginManager().registerEvents(new table(), this);
+        this.getServer().getPluginManager().registerEvents(new mobs(), this);
     }
 
     @Override
