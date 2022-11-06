@@ -1,6 +1,0 @@
-name: EnchantedDelete
-version: '${project.version}'
-main: me.termalquake.enchanteddelete.EnchantedDelete
-api-version: 1.18
-authors: [ TermalQuake ]
-description: Delet me
