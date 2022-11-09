@@ -15,11 +15,8 @@ public class chest implements Listener {
         Iterator<ItemStack> i = list.iterator();
         while (i.hasNext()) {
             ItemStack item = i.next();
-            if (item.getType() == Material.ENCHANTED_BOOK)
-                i.remove();
-            if (item.getEnchantments().size() > 0)
+            if (item.getType() == Material.ENCHANTED_BOOK || item.getEnchantments().size() > 0)
                 i.remove();
         }
     }
 }
-
