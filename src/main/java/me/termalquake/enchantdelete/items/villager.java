@@ -25,10 +25,7 @@ public class villager implements Listener {
         List<MerchantRecipe> recipes = new ArrayList<>(merchant.getRecipes());
         merchant.getRecipes().forEach(recipe -> {
             ItemStack result = recipe.getResult();
-            if (result.getType() == Material.ENCHANTED_BOOK) {
-                recipes.remove(recipe);
-            }
-            if (result.getEnchantments().size() > 0) {
+            if (result.getType() == Material.ENCHANTED_BOOK || result.getEnchantments().size() > 0) {
                 recipes.remove(recipe);
             }
         });
