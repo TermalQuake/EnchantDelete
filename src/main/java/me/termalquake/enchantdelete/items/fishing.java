@@ -12,15 +12,10 @@ public class fishing implements Listener {
     public void onPlayerFish(PlayerFishEvent e) {
         if (e.getCaught() instanceof Item) {
             ItemStack fished = ((Item) e.getCaught()).getItemStack();
-           // if (fished.getType() == Material.ENCHANTED_BOOK)
-              if (fished.getEnchantments().size() > 0)
+              if (fished.getType() == Material.ENCHANTED_BOOK || fished.getEnchantments().size() > 0)
                 {
                     e.getCaught().remove();
                 }
-            if (fished.getType() == Material.ENCHANTED_BOOK)
-            {
-                e.getCaught().remove();
-            }
         }
     }
 }
