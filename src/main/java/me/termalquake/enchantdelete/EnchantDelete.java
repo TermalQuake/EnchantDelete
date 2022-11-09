@@ -20,6 +20,5 @@ public final class EnchantDelete extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
     }
 }
