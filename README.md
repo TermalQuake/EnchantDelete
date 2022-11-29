@@ -35,3 +35,6 @@ Maybe i will improve this plugin.
 - [ ] Запретить использовать зачарованные предметы и книги на наковальне    
 ### Скачать
 [spigotmc](https://www.spigotmc.org/resources/enchantdelete.106135/)
+
+###
+В данный момент заброшенно
